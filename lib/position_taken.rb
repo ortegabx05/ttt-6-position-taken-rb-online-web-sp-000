@@ -1,4 +1,5 @@
-board = ["","","",""," ","","","",""]
+
+
 def position_taken?(board,index)
  taken = nil
  if (board[index] ==  " " || board[index] == "" || board[index] == nil)
@@ -6,5 +7,4 @@ def position_taken?(board,index)
  else
    taken = true
  end
-
 end
